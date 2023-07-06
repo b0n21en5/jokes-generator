@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  line-height: inherit;
+  margin: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(56, 126, 214, 1) 17%,
+    rgba(42, 93, 156, 1) 47%,
+    rgba(48, 72, 107, 1) 67%,
+    rgba(50, 57, 74, 1) 87%
+  );
+}
+
+.ft-30 {
+  font-size: 30px;
+}
+
+.bg-gd {
+  background: linear-gradient(90deg, #2c5364, #203a43, #0f2027);
+}
