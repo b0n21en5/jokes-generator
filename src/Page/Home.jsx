@@ -39,7 +39,9 @@ const Home = () => {
               <Card
                 key={ind}
                 title={title}
+                isShown={isShown}
                 setIsShown={setIsShown}
+                selectedCategory={selectedCategory}
                 setSelectedCategory={setSelectedCategory}
               />
             ))}
