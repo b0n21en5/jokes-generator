@@ -16,6 +16,7 @@ const JokeBox = ({ title, setIsShown }) => {
     setIsLoading(false);
   };
 
+  // joke will render when new category selected or clicked on next jokes
   useEffect(() => {
     getJoke();
   }, [title, nextjokes]);
@@ -44,6 +45,7 @@ const JokeBox = ({ title, setIsShown }) => {
       </h1>
       <div className="w-full border border-black m-auto mt-6 shadow-xl flex flex-col items-center justify-center">
         {isLoading ? (
+          // when joke is loading loader will be visible
           <HashLoader size={70} color="white" />
         ) : (
           <p className="ft-30 text-center font-semibold text-blue-100  font-sans  m-5 text-xl md:text-3xl">

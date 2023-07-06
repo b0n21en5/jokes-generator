@@ -10,7 +10,7 @@ const Home = () => {
   const [isShown, setIsShown] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState("");
 
-  // fetching categories
+  // fetching all categories
   const getCategories = async () => {
     setIsLoading(true);
     const resData = await axios.get(
@@ -27,6 +27,7 @@ const Home = () => {
   return (
     <div className="h-fit flex flex-col items-center justify-center">
       {isLoading ? (
+        // when page is loading loader will be visible
         <ScaleLoader className="mt-9" color="white" />
       ) : (
         <>
