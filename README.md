@@ -2,7 +2,7 @@
 
 <hr>
 
-![](https://github.com/b0n21en5/jokes-generator/tree/main/public/st.png)
+![](https://github.com/b0n21en5/jokes-generator/blob/main/public/st.png)
 
 <br>
 
